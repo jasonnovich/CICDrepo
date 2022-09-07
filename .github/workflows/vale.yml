@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@main
+      uses: actions/checkout@v2
 
     - name: Vale
       uses: errata-ai/vale-action@reviewdog
@@ -25,8 +25,8 @@ jobs:
         styles: |
           https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
           https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
-        files:
-          docs/
+        files: all
+          
 
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

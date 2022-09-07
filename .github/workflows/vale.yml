@@ -3,7 +3,11 @@
 name: Docs-Linting
 on: [pull_request]
 # Controls when the action will run.
+<<<<<<< HEAD
 
+=======
+on: [pull_request]
+>>>>>>> 6a5a7754a54b4ef1e35733d5801a8fc190bb6ab3
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

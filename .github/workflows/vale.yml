@@ -23,5 +23,6 @@ jobs:
       with:
         files: all
         debug: true
+        filter_mode: nofilter
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

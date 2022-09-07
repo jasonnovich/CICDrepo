@@ -20,7 +20,6 @@ jobs:
 
     - name: Styles
         run: |
-          sudo apt install wget unzip
           wget https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
           unzip Microsoft.zip -d .github/styles
           wget https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip

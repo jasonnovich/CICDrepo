@@ -26,6 +26,8 @@
 
 [Sample HTML](docs/sample-HTML.html)
 
+[Man on the silver mountain](docs/man-on-the-silver-mountain.html)
+
 Some more text to show the push worked.
 
 More text since push isn't working.

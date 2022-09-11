@@ -22,6 +22,21 @@ concurrency:
 
 jobs:
   # Build job
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Vale Linter
+      uses: errata-ai/vale-action@reviewdog
+      with:
+        files: all
+        debug: true
+        filter_mode: nofilter
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
   build:
     runs-on: ubuntu-latest
     steps:

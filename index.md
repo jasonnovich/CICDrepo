@@ -20,6 +20,8 @@
 
 [another file](docs/another-doc.md)
 
+[Tom Sawyer](docs/tom-sawyer.md)
+
 Some more text to show the push worked.
 
 More text since push isn't working.

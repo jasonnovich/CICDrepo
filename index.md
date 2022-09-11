@@ -24,9 +24,9 @@
 
 [Paranoid](docs/paranoid.md)
 
-[Sample HTML](docs/sample-HTML.html)
+[Sample HTML](docs/lyrics/sample-HTML.html)
 
-[Man on the silver mountain](docs/man-on-the-silver-mountain.html)
+[Man on the silver mountain](docs/lyrics/man-on-the-silver-mountain.html)
 
 Some more text to show the push worked.
 

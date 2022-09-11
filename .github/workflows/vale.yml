@@ -33,7 +33,6 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   build:
-    if: ${{always}}
     needs: [publish]
     runs-on: ubuntu-latest
     steps:
@@ -51,8 +50,7 @@ jobs:
 
   # Deployment job
   deploy:
-    if: ${{always}}
-    needs: [build]
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

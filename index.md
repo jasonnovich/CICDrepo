@@ -1,5 +1,3 @@
-Syntax highlighted code block
-
 # Header 1
 
 [cnn](http://www.cnn.com)

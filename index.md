@@ -1,6 +1,6 @@
 # Header 1
 
-[cnn](http://www.cnn.com)
+[CNN](http://www.cnn.com)
 
 ## Header 2
 
@@ -19,3 +19,5 @@
 [getting started](docs/getting-started.md)
 
 Some more text to show the push worked.
+
+More text since push is not working.

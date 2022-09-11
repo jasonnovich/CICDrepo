@@ -22,6 +22,8 @@
 
 [Tom Sawyer](docs/tom-sawyer.md)
 
+[Paranoid](docs/paranoid.md)
+
 Some more text to show the push worked.
 
 More text since push isn't working.

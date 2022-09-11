@@ -38,6 +38,7 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   build:
+    needs: [Linter]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

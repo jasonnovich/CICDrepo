@@ -16,4 +16,6 @@
 
 **Bold** and _Italic_ and `Code` text
 
-[getting started](docs\getting-started.md)
+[getting started](docs/getting-started.md)
+
+Some more text to show the push worked.

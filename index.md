@@ -24,6 +24,8 @@
 
 [Paranoid](docs/paranoid.md)
 
+[Sample HTML](docs/sample-HTML.html)
+
 Some more text to show the push worked.
 
 More text since push isn't working.

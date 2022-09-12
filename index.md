@@ -28,6 +28,8 @@
 
 [Man on the silver mountain](docs/lyrics/man-on-the-silver-mountain.html)
 
+[Lorum Ipsum](docs/random-text/lorum-ipsum.md)
+
 Some more text to show the push worked.
 
 More text since push isn't working.

@@ -33,3 +33,9 @@
 Some more text to show the push worked.
 
 More text since push isn't working.
+
+## API section
+
+This is an API in markdown, saved with GitHub, and published with the automation.
+
+[Movie API](docs/APIs/api.apib)

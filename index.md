@@ -38,4 +38,4 @@ More text since push isn't working.
 
 This is an API in markdown, saved with GitHub, and published with the automation.
 
-[Movie API](docs/APIs/api-polls.md)
+[Polls API](docs/APIs/api-polls.md)

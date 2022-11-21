@@ -33,10 +33,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-     
-    - name: Render images for every Mermaid diagram in all Markdown files (*.md) in the repo
-      uses: neenjaw/compile-mermaid-markdown-action@v0.3.3
-      
+
     - name: Vale Linter
       uses: errata-ai/vale-action@reviewdog
       with:

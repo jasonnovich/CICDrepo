@@ -6,7 +6,17 @@
 
 [Google](http://www.google.com)
 
-### Header 3
+## Header 4 - Diagrams
+
+<div class="mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
+
+### Header 4
 
 - Bulleted
 - List
